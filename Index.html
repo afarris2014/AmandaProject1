@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>LMHS Cross Country Team Page</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/all.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/Style.css">
+</head>
+
+<header>
+
+    <!-- navigation menu begins   -->
+
+
+    <nav class="nav flex-row">
+        <div class="nav-menu">
+            <div>
+                <img href="index.html" class="logo" src="./assets/logo.png">
+            </div>
+        </div>
+        <div class="toggle-collapse">
+            <div class="toggle-icons text-black">
+                <span class="icon"></span>
+            </div>
+        </div>
+        <div>
+            <ul class="nav-items flex-row">
+                <li class="nav-link">
+                    <a href="index.html" class="text-black">Home</a>
+                </li>
+                <li class="nav-link">
+                    <a href="schedule.html" class="text-black">Schedule</a>
+                </li>
+                <li class="nav-link">
+                  <a href="coaches.html" class="text-black">Coaches</a>
+              </li>
+                <li class="nav-link">
+                    <a href="contact.html" class="text-black">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+   
+
+    <!--    Custom Javascript      -->
+    <script src="./main.js"></script>
+
+
+<!-- navigation menu ends   -->
+
+<!-- header image sidshow begins   -->
+
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="./assets/image_1.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="./assets/image_2.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="./assets/image_4.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="./assets/image_5.jpg" style="width:100%">
+  </div>
+
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div>
+  
+  </div>
+    
+    </div>
+    <br>
+    
+    <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 4000); // Change image every 4 seconds
+        }
+    </script>
+
+  </header>
+ <!-- header image sidshow ends   -->
+
+</html>
