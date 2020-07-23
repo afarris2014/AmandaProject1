@@ -191,17 +191,6 @@ img {vertical-align: middle;}
   text-align: center;
 }
 
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-
-
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -321,3 +310,56 @@ img {vertical-align: middle;}
   
 
     /*------------------------------- contact form ends -------------------------------*/
+
+
+/*------------------------------- Coach page body starts -------------------------------*/
+
+
+
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Create two equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 500px) {
+      .column {
+        width: 100%;
+      }
+    }
+
+
+    /*------------------------------- Coach page body ends -------------------------------*/
+
+
+ /*------------------------------- footer begins -------------------------------*/
+    
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #4e2d7c;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-family: var(--livvic);
+      font-size: 1.1rem;
+   } 
+
+   
+   /*------------------------------- footer ends -------------------------------*/
