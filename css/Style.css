@@ -11,7 +11,6 @@
     --livvic: 'Livvic', sans-serif;
 }
 
-
 .flex-row{
     display: flex;
     flex-direction: row;
@@ -75,8 +74,6 @@ nav .nav-items .nav-link:hover a{
 .active {
     color: gold;
   }
-
-
 
 nav .social {
     padding: 1.4rem 0;
@@ -164,22 +161,24 @@ nav .toggle-collapse .toggle-icons i{
 
 /*------------------------------- navbar ends -------------------------------*/
 
-
-
 /*------------------------------- header image sidshow begins -------------------------------*/
 
 
 * {box-sizing: border-box;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
+.mySlides {
+  display: none;
+}
 
+img {
+  vertical-align: middle;
+  width: 100%;
+}
 
 .slideshow-container {
   max-width: 1400px;
   position: relative;
   margin: auto;
 }
-
 
 .text {
   color: #f2f2f2;
@@ -210,9 +209,6 @@ img {vertical-align: middle;}
 
   /*------------------------------- header image sidshow ends -------------------------------*/
 
-
-
-
  /*------------------------------- iframe for schedule begins -------------------------------*/
 
   .iframe-container {
@@ -231,10 +227,7 @@ img {vertical-align: middle;}
      height: 100%;
   }
   
-
  /*------------------------------- iframe for schedule ends -------------------------------*/
-
-
 
   /*------------------------------- contact form begins -------------------------------*/
 
@@ -244,7 +237,7 @@ img {vertical-align: middle;}
     margin-left: 45px;
   }
 
-  p {
+  p.context {
     margin-left: 45px;
     margin-top: -15px;
     margin-bottom: 30px;
@@ -292,9 +285,7 @@ img {vertical-align: middle;}
       margin: 5px 40px 20px 0;
       width: 270px;
     }
-
-    
-    
+  
     .form-inline button {
       margin-top: 20px;
       width: 270px;
@@ -306,15 +297,10 @@ img {vertical-align: middle;}
     }
   }
 
-
-  
-
     /*------------------------------- contact form ends -------------------------------*/
 
 
 /*------------------------------- Coach page body starts -------------------------------*/
-
-
 
     * {
       box-sizing: border-box;
@@ -342,10 +328,7 @@ img {vertical-align: middle;}
       }
     }
 
-
     /*------------------------------- Coach page body ends -------------------------------*/
-
-
  /*------------------------------- footer begins -------------------------------*/
     
     .footer {
@@ -355,11 +338,5 @@ img {vertical-align: middle;}
       width: 100%;
       background-color: #4e2d7c;
       color: white;
-      text-align: center;
-      padding: 10px;
-      font-family: var(--livvic);
-      font-size: 1.1rem;
    } 
-
-   
    /*------------------------------- footer ends -------------------------------*/

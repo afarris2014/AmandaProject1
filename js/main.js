@@ -19,9 +19,3 @@ for (var i = 0; i < document.links.length; i++) {
     }
 }
 document.links[active].className = 'active';
-
-// navbar javascript ends
-
-
-
-
