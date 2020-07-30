@@ -369,15 +369,30 @@ h6 {
 
 .columna {
 	float: left;
-	width: 40%;
-	margin-top: 30px;  
-	margin-left: 30px;
-  	margin-bottom: 20px;
-	height: 100%;
+	margin-top: 20px;
+	width: 45%;
+	margin-left: 45px;
+	margin-right: 0px;
 }
 
-.indeximage {
-  max-width: 85%;
+.columnb {
+	float: left;
+	width: 45%;
+	margin-top: 30px;
+	margin-left: 45px;
+	margin-right: 0px;
+}
+
+.columna p {
+	margin-right: 45px;
+}
+
+.indeximage1 {
+  width: 85%;
+}
+
+.indeximage2 {
+	width: 85%;
 }
 
 .rowa:after {
@@ -386,14 +401,41 @@ h6 {
 	clear: both;
 }
 
+.rowb:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
 @media screen and (max-width: 600px) {
 	.columna {
 		width: 80%;
-    	height: 100%;
+		margin-top: 30px;
+		margin-left: 35px;
 	}
-	.coachimage {
-		width: 70%;
-		
+
+	.columnb {
+		width: 80%;
+		margin-top: 30px;
+		margin-left: 35px;
+	}
+
+	.rowb {
+        display: flex;
+        flex-flow: column-reverse wrap;
+	  }
+
+	.indeximage {
+		width: 90%;
+	}
+
+	.columna p {
+		margin: 0px;
+	}
+	
+	.columnb p {
+		margin: 0px;
 	}
 }
 
@@ -419,6 +461,7 @@ h5 {
 
 .meets a {
 	color: #353535;
+	text-decoration: underline;
 }
 
 /*------------------------------- schedule body text ends -------------------------------*/
