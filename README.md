@@ -6,8 +6,6 @@ My navigation bar is responsive to the different devices. Also in mobile version
 
 My home page has a header image that is a slideshow. Also my body text with the images are all responsive. 
 
-My schedule page is shows last years schedule because we dont have a schedule yet for this year. Their are links under the meets that takes the user to an off site website. 
-
 My contact page has responsive info boxes and button. Also another feature on the form is that it validates the input being put into the information boxes. 
 
 To view my project you would just need to download the project to your local machine and open index.html in your browser. 
