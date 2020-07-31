@@ -95,7 +95,7 @@ nav .toggle-collapse .toggle-icons i {
 }
 
 .collapse {
-	height: 21rem;
+	height: 17rem;
 }
 
 .icon,
@@ -368,14 +368,16 @@ h6 {
 }
 
 .columna {
+	display: flex;
 	float: left;
 	margin-top: 20px;
 	width: 45%;
-	margin-left: 45px;
+	margin-left: 25px;
 	margin-right: 0px;
 }
 
 .columnb {
+	display: flex;
 	float: left;
 	width: 45%;
 	margin-top: 30px;
@@ -388,11 +390,15 @@ h6 {
 }
 
 .indeximage1 {
-  width: 85%;
+  width: 100%;
+  display:block;
+  margin:auto;
 }
 
 .indeximage2 {
-	width: 85%;
+	width: 100%;
+	display:block;
+	margin:auto;
 }
 
 .rowa:after {
@@ -407,6 +413,19 @@ h6 {
 	clear: both;
 }
 
+.rowa {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+	justify-content: space-evenly;
+}
+
+.rowb {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+	justify-content: space-evenly;
+}
 
 @media screen and (max-width: 600px) {
 	.columna {
@@ -421,9 +440,14 @@ h6 {
 		margin-left: 35px;
 	}
 
+	.rowa {
+        display: flex;
+		flex-flow: column-reverse wrap;
+	  }
+	
 	.rowb {
         display: flex;
-        flex-flow: column-reverse wrap;
+		flex-flow: column-reverse wrap;
 	  }
 
 	.indeximage {
