@@ -441,8 +441,8 @@ h6 {
 	}
 
 	.rowa {
-        display: flex;
-		flex-flow: column-reverse wrap;
+		display: flex;
+		flex-direction: column;
 	  }
 	
 	.rowb {
